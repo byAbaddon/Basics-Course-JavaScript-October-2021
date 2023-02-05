@@ -1,5 +1,5 @@
 function oldBooks(arg) { 
-  let book = arg.shift()
+  const book = arg.shift()
   let countBooks = 0
 
   while (arg) {
