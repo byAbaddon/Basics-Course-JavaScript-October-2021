@@ -13,6 +13,3 @@ function oldBooks(arg) {
 }
 
 console.log(oldBooks(['Troy','Stronger','Life Style','Troy']))
-
- 
-  
