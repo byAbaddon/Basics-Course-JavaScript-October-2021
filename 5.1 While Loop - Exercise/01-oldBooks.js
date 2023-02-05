@@ -2,10 +2,10 @@ function oldBooks(arg) {
   let book = arg.shift()
   let countBooks = 0
 
-  while (arg.length > 0) {
+  while (arg) {
     currentBook = arg.shift()
     if (currentBook == 'No More Books') break
-    if (book == currentBook) return  `You checked ${countBooks} books and found it.`
+    if (book == currentBook) return `You checked ${countBooks} books and found it.`
     countBooks++
   }
 
