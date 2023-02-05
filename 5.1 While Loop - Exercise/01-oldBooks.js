@@ -12,4 +12,4 @@ function oldBooks(arg) {
   return `The book you search is not here!\nYou checked ${countBooks} books.`
 }
 
-console.log(oldBooks(['Troy','Stronger','Life Style','Troy']))
+//console.log(oldBooks(['Troy','Stronger','Life Style','Troy']))
