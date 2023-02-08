@@ -4,6 +4,7 @@ arg => {
 }
 
 //--------------------------------------------(2)-------------------------------------
+
 function walking(arg) {
   let steps = 10000
   let allSteps = arg.filter(el => Number(el)).reduce((a, b) => +a + +b) - steps
