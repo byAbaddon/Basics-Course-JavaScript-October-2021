@@ -1,6 +1,6 @@
 arg => {
   allStp = eval(arg.filter(Number).join('+')) - 10_000
-  return allStp < 0 ? `${Math.abs(allStp)} more steps to reach goal.`: `Goal reached! Good job!\n${allStp} steps over the goal!`
+  return allStp < 0 ? `${Math.abs(allStp)} more steps to reach goal.` : `Goal reached! Good job!\n${allStp} steps over the goal!`
 }
 
 //--------------------------------------------(2)-------------------------------------
